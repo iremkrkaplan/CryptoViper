@@ -40,7 +40,6 @@ class CryptoPresenter : AnyPresenter{
             //view.update error
             print("error")
         }
-        <#code#>
     }
     
     
