@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+
+//struct
+
+struct Crypto : Decodable {
+    let currency : String
+    let price : String
+}

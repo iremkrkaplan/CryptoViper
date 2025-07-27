@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+//talks to -> presenter
+//class, protocol
+//apiden çekme işlemleri
