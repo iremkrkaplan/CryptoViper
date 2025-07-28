@@ -92,7 +92,7 @@ class CryptoViewController : UIViewController, AnyView, UITableViewDelegate, UIT
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemPurple
+        view.backgroundColor = .systemPink
         view.addSubview(tableView)
         view.addSubview(messageLabel)
         tableView.delegate = self
