@@ -20,7 +20,6 @@ protocol AnyView {
     func update(with error: String)
 }
 
-
 class DetailViewController : UIViewController {
     var presenter: AnyPresenter?
     
@@ -49,7 +48,7 @@ class DetailViewController : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .yellow
+        view.backgroundColor = .systemPink
         view.addSubview(currencyLabel)
         view.addSubview(priceLabel)
        
@@ -93,7 +92,7 @@ class CryptoViewController : UIViewController, AnyView, UITableViewDelegate, UIT
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .yellow
+        view.backgroundColor = .systemPurple
         view.addSubview(tableView)
         view.addSubview(messageLabel)
         tableView.delegate = self
@@ -135,7 +134,7 @@ class CryptoViewController : UIViewController, AnyView, UITableViewDelegate, UIT
         content.text = cryptos[indexPath.row].currency
         content.secondaryText = cryptos[indexPath.row].price
         cell.contentConfiguration = content
-        cell.backgroundColor = .yellow
+        cell.backgroundColor = .systemPink
         return cell
     }
     
